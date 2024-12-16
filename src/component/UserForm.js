@@ -41,7 +41,7 @@ const UserForm = () => {
   return (
     <section className="form-content">
       <form className="form" onSubmit={handleFormSubmit}>
-        <h1>User Form</h1>
+        <h1>servey form</h1>
         <div className="form-inputs">
           <input
             type="text"
