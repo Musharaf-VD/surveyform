@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0px;
+    
+    
+}
+
+
+.form-content{
+    background-color: rgba(153, 239, 226, 0.452);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-content > button{
+    padding: 5px 35px;
+    margin-bottom: 30px;
+    background-color: green;
+    font-weight: 200;
+    color: white;
+    color: black;
+    transition: 0.4s;
+}
+
+
+.form-content > button:hover{
+    transform: scale(1.04);
+    background-color: lightgreen;
+}
+
+.form{
+    background-color: rgba(96, 88, 88, 0.467);
+    padding: 10px 30px;
+    border-radius: 15px;
+    animation: bordercolor 1s ease-in infinite;
+    min-height: 500px;
+    width: 400px;
+}
+
+@keyframes bordercolor {
+    0%{
+        border: 3px solid black;
+    }
+    50%{
+        border: 3px solid darkred;
+    }
+    100%{
+        border: 3px solid darkgrey;
+    }
+    
+}
+
+.form > h1{
+    text-align: center;
+    color: white;
+    margin:15px auto;
+    
+}
+
+.form-inputs > input,textarea{
+    width: 100%;
+    margin-bottom: 18px;
+    padding-left: 15px;
+    border-radius: 15px;
+   
+}
+.form-inputs > textarea{
+    padding-top: 15px;
+}
+
+.form-inputs > input{
+    padding: 10px;
+    
+}
+
+.form-inputs > input:hover{
+    border:3px solid green ;
+    background-color: whitesmoke; 
+}
+.form-inputs > textarea:hover{
+    border:3px solid green ;
+    background-color: whitesmoke; 
+}
+
+#errors{
+   position: relative;
+   bottom: 11px;
+   text-align: center;
+   width: 100%;
+   color: red;
+}
+
+.form-btn > button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: darkcyan;
+    transition: 0.4s;
+}
+
+.form-btn > button:hover{
+    background-color: lightgreen;
+    transform: scale(1.04);
+
+}
