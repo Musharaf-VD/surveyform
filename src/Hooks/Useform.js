@@ -5,6 +5,11 @@ const [values, setValues] = useState({
     username:"",
     email:"",
     mbl:"",
+    language:"",
+    gender:"",
+    address:"",
+    collage:"",
+    qualification:"",
     feedback:""
 
 });
@@ -29,6 +34,11 @@ const handleSubmit = (event) =>{
   username:"",
   email:"",
   mbl:"",
+  language:"",
+  gender:"",
+  address:"",
+  collage:"",
+  qualification:"",
   feedback:"",
 
   
